@@ -15,6 +15,3 @@ let persona = {
     "cabello": "Rubio"
 }
 
-console.log(persona)
-console.log(persona["nombre"])
-console.log(array[1])
