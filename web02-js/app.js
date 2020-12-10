@@ -25,10 +25,10 @@ for (const alumno of datos) {
     alu.appendChild(id);
     let param = document.createElement("ul");
     id.appendChild(param);
+    delete alumno.identificadorAlumno;
     for (const prop in alumno) {
-        if(prop != 0){
             let el = document.createElement("li");
             el.innerHTML = prop + ": " + alumno[prop];
-        }
+            param.appendChild(el)
     }
 }
