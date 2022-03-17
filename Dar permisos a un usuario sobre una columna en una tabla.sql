@@ -1,0 +1,1 @@
+GRANT SELECT ON Consultas.Personas(nombre) TO Consultor@'%';
